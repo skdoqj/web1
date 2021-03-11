@@ -24,33 +24,45 @@
     h1 {
       font-size: 45px;
       text-align: center;
-      border-bottom: 3px solid grey;
+      border-bottom: 2px solid grey;
       background-color: #7dcff7;
       padding: 30px;
       margin: 0;
     }
-    ul {
+    #grid ul {
       font-size: 20px;
-      border-right: 3px solid grey;
+      border-right: 2px solid grey;
       width: 150px;
       margin: 0;
-      padding: 20px
+      padding: 20px;
+      padding-left: 40px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 200px 1fr;
+    }
+    #article{
+      padding:30px;
+      padding-top: 5px;
     }
   </style>
 </head>
 <body>
   <img src="시티로고.png" width="100">
   <h1><a href="index.html">맨체스터 시티 FC</font></a></h1>
+<div id="grid">
   <ul>
     <li><a href="1.html">역사</font></a></li>
     <li><a href="2.html">데브라이너</a></li>
     <li><a href="3.html">펩</a></li>
     <li><a href="4.html">하이라이트</a></li>
   </ul>
-
-  <h2>맨체스터 시티</h2>
-  <p>맨체스터 시티를 소개하는 페이지</p>
-  <img src="경기.jpg" width="800">
+  <div id="article">
+    <h2>맨체스터 시티</h2>
+    <p>맨체스터 시티를 소개하는 페이지</p>
+    <img src="경기.jpg" width="800">
+  </div>
+</div>
 
   <P><div id="lv-container" data-id="city" data-uid="MTAyMC81MjkxMy8yOTM5MA==">
 	<script type="text/javascript">
@@ -66,9 +78,9 @@
        e.parentNode.insertBefore(j, e);
    })(document, 'script');
 	</script>
-<noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
-</div>
-</P>
+  <noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+  </div>
+  </P>
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
