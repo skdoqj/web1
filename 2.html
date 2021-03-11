@@ -5,63 +5,86 @@
   <title>맨체스터 시티</title>
   <meta charset="utf-8">
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-V4M7WTQ7TV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4M7WTQ7TV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-V4M7WTQ7TV');
-</script>
-<style>
+    gtag('config', 'G-V4M7WTQ7TV');
+  </script>
+  <style>
     #active{
       color: #00ace6;
     }
-  body{
-  margin: 0px;
+    body{
+      margin: 0px;
     }
-  a {
-    color:black;
-    text-decoration: none;
-  }
-  h1 {
-    font-size: 45px;
-    text-align: center;
-    border-bottom: 3px solid grey;
-    background-color: #7dcff7;
-    padding: 30px;
-    margin: 0;
-  }
-  ul {
-    font-size: 20px;
-    border-right: 3px solid grey;
-    width: 150px;
-    margin: 0;
-    padding: 20px
-  }
-</style>
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 45px;
+      text-align: center;
+      border-bottom: 2px solid grey;
+      background-color: #7dcff7;
+      padding: 30px;
+      margin: 0;
+    }
+    #grid ul {
+      font-size: 20px;
+      border-right: 2px solid grey;
+      width: 150px;
+      margin: 0;
+      padding: 20px;
+      padding-left: 40px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 200px 1fr;
+    }
+    #article{
+      padding:30px;
+      padding-top: 5px;
+    }
+    @media(max-width:800px){
+      #grid{
+        display: block;
+      }
+      #grid ul {
+        border-right: none;
+      }
+      h1 {
+        border-bottom: none;
+      }
+    }
+  </style>
 </head>
 <body>
   <h1><a href="index.html">맨체스터 시티 FC</a></h1>
+<div id="grid">
   <ul>
     <li><a href="1.html" class"saw">역사</a></li>
     <li><a href="2.html" class"saw" id="active">데브라이너</a></li>
     <li><a href="3.html" class"saw">펩</a></li>
     <li><a href="4.html" class"saw">하이라이트</a></li>
   </ul>
+    <div id="article">
+      <img src="데브라이너.jpg" width="400">
 
-  <img src="데브라이너.jpg" width="400">
-
-  <h2>데브라이너</h2>
-  <p>케빈 더 브라위너(Kevin De Bruyne, 1991년 6월 28일 ~ )는 벨기에의 축구 선수이며,
-     현재 잉글랜드 프리미어리그의 맨체스터 시티 소속으로 포지션은 중앙 미드필다.
-    그리고 2018년 현 시점에서는 중앙 미드필더로 포지션을 변경해서 완전히 적응한 모습이다.
-    2015-2016시즌 초기에는 맨체스터 시티 FC의 4-2-3-1 포메이션에서 주로 오른쪽 윙어로 출전하며,
-    공격형 미드필더에는 다비드 실바가 출전하였으나, 최근에는 더 브라이너가 공격형 미드필더로 출전한다.
-    2017/2018 시즌에 들어서는 다비드 실바가 공격진영에서 자유롭게 돌아다니는 역할이고,
-    케빈 더 브라위너는 3선까지 내려와서 공격의 시작점이 되며 경기 전체를 조율하는 역할로 바뀌었다.
-    완전히 중앙 미드필더로 전향한 모습.
-  </p>
+      <h2>데브라이너</h2>
+      <p>케빈 더 브라위너(Kevin De Bruyne, 1991년 6월 28일 ~ )는 벨기에의 축구 선수이며,
+         현재 잉글랜드 프리미어리그의 맨체스터 시티 소속으로 포지션은 중앙 미드필다.
+        그리고 2018년 현 시점에서는 중앙 미드필더로 포지션을 변경해서 완전히 적응한 모습이다.
+        2015-2016시즌 초기에는 맨체스터 시티 FC의 4-2-3-1 포메이션에서 주로 오른쪽 윙어로 출전하며,
+        공격형 미드필더에는 다비드 실바가 출전하였으나, 최근에는 더 브라이너가 공격형 미드필더로 출전한다.
+        2017/2018 시즌에 들어서는 다비드 실바가 공격진영에서 자유롭게 돌아다니는 역할이고,
+        케빈 더 브라위너는 3선까지 내려와서 공격의 시작점이 되며 경기 전체를 조율하는 역할로 바뀌었다.
+        완전히 중앙 미드필더로 전향한 모습.
+      </p>
+    </div>
+</div>
 
   <P><div id="lv-container" data-id="city" data-uid="MTAyMC81MjkxMy8yOTM5MA==">
 	<script type="text/javascript">
