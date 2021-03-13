@@ -1,0 +1,70 @@
+  #active{
+      color: #00ace6;
+    }
+    body{
+      margin: 0px;
+      padding: 0px;
+      min-width: 400px;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    #top a {
+      color: black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 30px;
+      text-align: center;
+      padding: 20px;
+      display: inline-block;
+      margin: 0;
+    }
+    #grid ul {
+      position: relative;
+      left: 1px;
+      font-size: 20px;
+      width: 150px;
+      margin: 0;
+      padding: 20px;
+      padding-left: 40px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      border-bottom: 2px solid #7dcff7;
+    }
+    #article{
+      padding:30px;
+      padding-top: 5px;
+    }
+    @media(max-width:800px){
+      #grid{
+        display: block;
+      }
+      #grid ul {
+        border-right: none;
+      }
+    }
+    #top img {
+      float: left;
+      margin: 0px;
+      margin-top: 10px;
+      margin-left: 60px;
+      margin-right: 10px;
+      width: 60px;
+    }
+    #top {
+      position: sticky; z-index: 2; top: 0px;
+      background-color: white;
+      border-bottom: 2px solid #7dcff7;
+      height: 80px;
+    }
+    a[href^="https"] {
+      color: purple;
+    }
+    .menu {
+      position: sticky; z-index: 1; top: 0px;
+    }
+  </style>
