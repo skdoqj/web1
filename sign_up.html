@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    li{ list-style:none;}
+    .colorBtn{
+      width: 100px;
+      height: 35px;
+      background-color: green;
+      color: white;
+      text-align: center; /*중앙정렬*/
+
+      line-height: 35px; /*텍스트 높이 배경높이랑 똑같이해야 중 */
+      cursor: pointer; /*버튼커서*/
+      border-radius: 10px; /*모서리 둥글리기*/
+    }
+  </style>
+</head>
+<body>
+  <form>
+      <ul>
+        <li><input type="text"></li>
+        <li><input type="password"></li>
+        <li>
+          <label><input type="radio" name"fruit" id="orange">오렌지</label>
+          <label><input type="radio" name"fruit" id="apple">사과</label>
+          <label><input type="radio" name"fruit" id="strawberry">딸기</label>
+        </li>
+        <li>
+          <label><input type="checkbox" name"fruit" id="orange">오렌지</label>
+          <label><input type="checkbox" name"fruit" id="apple">사과</label>
+          <label><input type="checkbox" name"fruit" id="strawberry">딸기</label>
+        </li>
+        <!-- 버튼만들기 인데 잘 안씀
+        <li><input type="button" value"버튼입니다"></li>
+        <li><input type="submit" value"버튼입니다"></li>
+        -->
+        <li><div class="colorBtn">버튼입니다</div></li>
+      </ul>
+  </form>
+</body>
+</html>
