@@ -70,7 +70,7 @@
       color: #00ace6;
       background-color: #7dcff7;
     }
-    .menu ul {
+    .menu {
       text-align: center;
       left: 1px;
       font-size: 20px;
@@ -97,24 +97,18 @@
       #grid{
         display: block;
       }
-      .menu ul {
-        display: inline;
-        width:
-        border-right: none;
-        width: 150px;
+      .menu {
+        display: block;
       }
-      .menu li {
-        float: left;
+      .menu > li {
+        display: flex;
       }
-      h2 {
-        padding-top: 80px;
+      .menu > li > a {
+        text-align: center;
       }
     }
     #article a[href^="https"] {
       color: purple;
-    }
-    .subMenu_Area{
-
     }
     .subMenu {
       display: flex;

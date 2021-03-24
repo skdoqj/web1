@@ -1,0 +1,67 @@
+section{
+  display: block;
+}
+.all_position {
+  margin: 5px;
+  margin-bottom: 40px;
+  width: 1300px;
+}
+.position_group h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #053148;
+}
+.position_group ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.squad {
+  margin-right: 40px;
+  display: inline-block;
+}
+.player_card{
+  width: 100%;
+  height: 100%;
+  background: #053148;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.card_up{
+  position: relative;
+  display: flex;
+}
+.photo {
+  height: 200px;
+}
+.photo img{
+  height: 180px;
+  position: relative;
+  left: 0px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+.number {
+  font-size: 75px;
+  font-weight: 550;
+  letter-spacing: -15px;
+  margin: auto;
+  position: absolute;
+  top: -20px;
+  left: 5px;
+  z-index: 3;
+  color: white;
+}
+.name_taeg{
+  z-index: 4;
+  margin: auto;
+  text-align: center;
+  height: 45px;
+  border-top: 1px solid white;
+}
+.player_name{
+  position: relative;
+  font-size: 20px;
+  color: white;
+  top: 5px;
+}
