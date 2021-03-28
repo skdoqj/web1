@@ -1,0 +1,26 @@
+#article_body img{
+  margin-top: 20px;
+}
+#article_body h2{
+  color: #27aef1;
+}
+#article_body p{
+  font-size: 20px;
+}
+.mc{
+  width: 800px;
+}
+th{
+  background-color: #7dcff7;
+  font-size: 25px;
+  padding: 5px;
+}
+td{
+  padding: 5px;
+}
+.left{
+  text-align: center;
+}
+.right{
+  padding-left: 15px;
+}
