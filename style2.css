@@ -107,7 +107,7 @@
         text-align: center;
       }
     }
-    #article a[href^="https"] {
+    .link [href^="https"] {
       color: purple;
     }
     .subMenu {
